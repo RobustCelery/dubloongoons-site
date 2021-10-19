@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+#nav-bar {
+    height: 10%;
+    background-color: thistle;
+    opacity: 50%;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#br-img  {
+    background-image: url("images/home-br.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    height:50%;
+    width: 100%;
+}
+
+
+#mono-plane {
+    background-color: darkgoldenrod;
+    
+    height:100%;
+    width:100%;
+}
