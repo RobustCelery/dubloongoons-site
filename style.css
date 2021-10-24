@@ -50,7 +50,8 @@ a {
 }
 
 #mono-plane {
-    background-color: lightgrey;
+    background-image: url("images/Pirate_map.png");
+    background-size: 100% 100%;
     height:100%;
     width:100%;
 }
