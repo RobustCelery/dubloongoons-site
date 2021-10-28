@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#game-br {
+    background-image: url("images/game-br.png");
+    background-repeat:no-repeat;
+    background-size: auto 100%;
+    background-attachment: absolute;
+    background-position:top center;
+    position: absolute;
+    top:0%;
+    left:0%;
+    height: 100%;
+    width: 100%;
+}
+
+#exit {
+    background-color: lightgrey;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    height: 10%;
+    width: 20%;
+    z-index: 2;
+  }
+
+
+#card1 {
+    background-image: url(images/CardAceC.png);
+    background-size: 100% 100%;
+    position: fixed;
+    height: 35%;
+    width: 20%;
+    z-index: 2;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+#card2 {
+    background-image: url(images/CardAceC.png);
+    background-size: 100% 100%;
+    position: fixed;
+    height: 35%;
+    width: 20%;
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+#card3 {
+    background-image: url(images/CardAceC.png);
+    background-size: 100% 100%;
+    position: fixed;
+    height: 35%;
+    width: 20%;
+    z-index: 2;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
