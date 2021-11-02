@@ -45,11 +45,16 @@ a {
   background-image: url(images/playnow.png);
   background-size: 100% 100%;
   position: fixed;
-  left: 40%;
-  top: 70%;
-  height: 10%;
-  width: 20%;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, 0%);
+  height: 100px;
+  width: 250px;
+  padding: 2%;
   z-index: 1;
+}
+#play-btn:hover {
+  opacity: 50%;
 }
 
 #mono-plane {
